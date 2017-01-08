@@ -2,14 +2,51 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
-header > p {
+.name > p {
     font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: 200;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 44rem;
+    margin: 0 auto;
+    padding-left: 1vw;
+    color: darkgrey;
 }
 
-header > h1 {
+.name > h1 {
     font-family: inherit;
-    font-size: 3.2rem;
+    font-size: 7rem;
     font-weight: 400;
+    width: 44rem;
+    margin: 15vw auto 5vw auto;
+    color: steelblue;
+}
+
+.hire-top {
+    text-align: center;
+    font-family: inherit;;
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
+    padding: .5rem;
+    background-color: cornflowerblue;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.hire-top > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.head {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
 }
