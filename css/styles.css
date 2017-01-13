@@ -114,8 +114,14 @@ nav > ul {
     text-align: center;
 }
 
-.tech_block {
+article {
+    width: 60%;
+    float: left;
     margin-top: 2vh;
-    line-height: 1.5em;
-    
+}
+
+aside {
+    width: 40%;
+    float: right;
+    margin-top: 2vh;
 }
