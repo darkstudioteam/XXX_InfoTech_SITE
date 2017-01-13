@@ -125,3 +125,10 @@ aside {
     float: right;
     margin-top: 2vh;
 }
+
+article,aside > h2 {
+    font-family: inherit;
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+}
