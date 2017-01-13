@@ -115,16 +115,19 @@ nav > ul {
 }
 
 article {
-    width: 60%;
+    width: 65%;
     float: left;
 }
 
 aside {
-    width: 40%;
+    width: 35%;
+    height: 100vh;
     float: right;
+    background-color: whitesmoke;
 }
 
 article > h2, aside > h2 {
     font-weight: 400;
     font-style: normal;
+    color: #aaa;
 }
