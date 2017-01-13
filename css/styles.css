@@ -2,25 +2,7 @@ body {
     font-family: 'Exo 2', sans-serif;
 }
 
-.name > p {
-    font-family: inherit;
-    font-size: 2rem;
-    font-weight: 400;
-    width: 44rem;
-    margin: 0 auto;
-    padding-left: 1vw;
-    color: darkgrey;
-}
-
-.name > h1 {
-    font-family: inherit;
-    font-size: 7rem;
-    font-weight: 400;
-    width: 44rem;
-    margin: 15vw auto 5vw auto;
-    color: steelblue;
-}
-
+/*                                 HIRING BAR                            */
 .hire-top {
     text-align: center;
     font-family: inherit;;
@@ -28,25 +10,64 @@ body {
     font-size: 1em;
     color: #fff;
     padding: .5rem;
-    background-color: cornflowerblue;
+    background-color: #6cc0ff;
     line-height: 1.5em;
     letter-spacing: 0.1em;
 }
 
-.hire-top > a {
+.hire-top p a {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 
-.head {
-    width: 80%;
+.hire-top > p {
     margin: 0 auto;
 }
 
-.logo {
-    display: inline-block;
+/*                                 HERO HEADER                            */
+header {
+    width: auto;
+    overflow: hidden;
+    background-color: beige;
+    padding: 2vw;
 }
 
-.name {
+.head_wrapper {
+    width: 76vw;
+    margin: 0 auto;
+}
+
+.head_wrapper .text {
+    margin: 4vw 0 4vw 0;
+    float: left;
+}
+
+.text h1 {
+    font-family: inherit;
+    font-size: 5rem;
+    font-weight: 400;
+    color: steelblue;
+    margin: 0 0 0 1vw;
+}
+
+.text h2 {
+    font-family: inherit;
+    font-size: 2rem;
+    font-weight: 200;
+    color: darkgrey;
+    margin: 0 0 0 1.3vw;
+}
+
+.head_wrapper .img {
     display: inline-block;
+    float: right;
+}
+
+.wrk_flw p {
+    position: absolute;
+    top: 25vw;
+    right: 6vw;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
