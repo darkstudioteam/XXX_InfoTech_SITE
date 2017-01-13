@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Exo 2', sans-serif;
+    margin: 0;
 }
 
 /*                                 HIRING BAR                            */
@@ -32,7 +33,7 @@ body {
 /*                                NAVIGATION:                             */
 header {
     width: auto;
-    height: 100px;
+    height: 75px;
     background-color: #fff;
     padding: 1vw;
 }
@@ -40,12 +41,17 @@ header {
 nav > ul > li {
     display: inline-block;
     float:left;
-    margin-left: 10px;
+    margin-left: 80px;
     color: #000;
     font-family: inherit;
     font-size: 1em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
     font-weight: 200;
+    line-height: 3em;
+}
+
+nav > ul {
+    margin: 0;
 }
 
 /*                                 HERO HEADER                            */
@@ -87,10 +93,16 @@ nav > ul > li {
     float: right;
 }
 
+/*                                WORKFLOW              */
 .wrk_flw p {
     position: absolute;
-    top: 25vw;
+    top: 30vw;
     right: 6vw;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.wrk_flw > img {
+    display: inline-block;
+    float: left;
 }
