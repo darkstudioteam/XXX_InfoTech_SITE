@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Exo 2', sans-serif;
 }
@@ -23,6 +27,25 @@ body {
 
 .hire-top > p {
     margin: 0 auto;
+}
+
+/*                                NAVIGATION:                             */
+header {
+    width: auto;
+    height: 100px;
+    background-color: #fff;
+    padding: 1vw;
+}
+
+nav > ul > li {
+    display: inline-block;
+    float:left;
+    margin-left: 10px;
+    color: #000;
+    font-family: inherit;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+    font-weight: 200;
 }
 
 /*                                 HERO HEADER                            */
