@@ -121,7 +121,7 @@ article {
 
 aside {
     width: 35%;
-    height: 100vh;
+    height: auto;
     float: right;
     background-color: whitesmoke;
 }
